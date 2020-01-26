@@ -1,0 +1,38 @@
+body {
+  color: $color-neutral-white;
+  font-family: $primary-font-family;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+%headings {
+  font-family: $secondary-font-family;
+  font-weight: 700;
+}
+
+.heading-primary {
+  @extend %headings;
+  font-size: 3.45rem;
+  line-height: 1.4;
+  animation-name: fade-in-down;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: backwards;
+  animation-delay: 1.5s;
+}
+
+.heading-secondary {
+  @extend %headings;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.heading-tertiary {
+  @extend %headings;
+  font-size: 3rem;
+}
+
+.heading-quaternary {
+  @extend %headings;
+  font-size: 1.8rem;
+}

@@ -1,0 +1,47 @@
+.main-nav {
+  display: flex;
+  align-items: center;
+
+  &__logo {
+
+    @media only screen and (max-width: $bp-smallest) {
+      display: block;
+      height: auto;
+      width: 20%;
+    }
+  }
+
+  &__list {
+    display: flex;
+    margin-left: auto;
+    font-family: $secondary-font-family;
+    font-size: 1.4rem;
+    list-style: none;
+
+    @media only screen and (max-width: $bp-medium) {
+      font-size: 1.5rem;
+    }
+  }
+
+  &__item {
+    flex: 0 0 auto;
+    display: inline-block;
+
+    &:not(:last-child) {
+      margin-right: 5rem;
+    }
+  }
+
+  &__link {
+
+    &:link,
+    &:visited {
+      color: inherit;
+      display: inline-block;
+      text-decoration: none;
+      transition: transform .15s ease-in-out;
+    }
+
+    @include navigation-animation;
+  }
+}

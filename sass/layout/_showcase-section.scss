@@ -1,0 +1,45 @@
+.showcase-section {
+  padding: 10rem 0;
+
+  @media only screen and (max-width: $bp-medium) {
+    padding: 10rem 5rem;
+  }
+
+  @media only screen and (max-width: $bp-smallest) {
+    padding: 5rem 3rem;
+  }
+}
+
+.showcase-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+
+  @media only screen and (max-width: $bp-medium) {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-row-gap: 5rem;
+  }
+}
+
+.showcase-img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.showcase-content {
+  padding: 4rem;
+
+  @media only screen and (max-width: $bp-smallest) {
+    padding: 4rem 0;
+  }
+
+  &__text {
+    font-size: 1.2rem;
+
+    @media only screen and (max-width: $bp-smallest) {
+      text-align: justify;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+// COLOR VARIABLES
+
+$color-primary-dark-1: #1C2431;      //intro and email sign up background
+$color-primary-dark-2: #181F2A;      //main background
+$color-primary-dark-3: #0B1523;      //footer background
+$color-primary-dark-4: #202A3C;      //testimonials background
+
+$color-accent-cyan: #65E2D9;         //inside call-to-action gradient
+$color-accent-blue: #339ECC;         //inside call-to-action gradient
+
+$color-neutral-white: #fff;
+$color-black: #000;
+
+// TYPOGRAPHY VARIABLES
+
+$primary-font-family: 'Open Sans', sans-serif;
+$secondary-font-family: 'Raleway', sans-serif;
+
+// OTHERS
+
+$shadow-further: 0 2rem 3rem rgba($color-black, .5);
+$shadow-closer: 0 1rem 2.5rem rgba($color-black, .8);
+
+// RESPONSIVE BREAKPOINTS
+
+$bp-largest: 90em;          // 1440px
+$bp-large: 77.5em;          // 1240px
+$bp-big: 71.875em;          // 1150px
+$bp-medium: 55.625em;       // 890px
+$bp-small: 46.25em;         // 740px
+$bp-smallest: 34.375em;     // 550px
+$bp-ultrasmall: 23.125em;   // 370px

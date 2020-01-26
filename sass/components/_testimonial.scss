@@ -1,0 +1,54 @@
+.testimonial {
+  border-radius: 5px;
+  box-shadow: $shadow-closer;
+  background-color: $color-primary-dark-4;
+  padding: 2.5rem 2rem;
+  transition: all .2s ease-in-out;
+
+  @media only screen and (max-width: $bp-medium) {
+    padding: 2.5rem 3rem;
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  @media only screen and (max-width: $bp-smallest) {
+    padding: 2.5rem 2rem;
+    width: 75%;
+  }
+
+  &__text {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+
+  &__author {
+    display: flex;
+    align-items: center;
+  }
+
+  &__author-img {
+    border-radius: 50%;
+    display: block;
+    height: 4rem;
+    width: 4rem;
+    margin-right: 1.25rem;
+  }
+
+  &__author-details {
+
+    span {
+      display: block;
+      font-size: 1.1rem;
+      font-weight: 700;
+    }
+
+    small {
+      color: #eee;
+    }
+  }
+
+  &:hover {
+    box-shadow: $shadow-further;
+    transform: scale(1.05);
+  }
+}

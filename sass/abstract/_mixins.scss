@@ -1,0 +1,12 @@
+@mixin navigation-animation {
+  
+  &:hover,
+  &:focus {
+    transform: translateY(-.25rem) scale(1.05);
+    outline: none;
+  }
+
+  &:active {
+    transform: translateY(-.1rem) scale(1.025);
+  }
+}
