@@ -1,4 +1,4 @@
-# Fylo - simple landing page build for Frontend Master
+# Fylo - simple landing page build for Frontend Mentor
 
 ## General info
 This project has been build by me as a test after taking an Advanced CSS and Sass online course. It is a simple dark theme landing page build mainly with CSS Flexbox and Grid.
